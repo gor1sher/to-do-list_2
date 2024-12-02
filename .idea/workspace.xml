@@ -5,21 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="36c2c8c1-e43c-4100-98cd-f07a5755fcdc" name="Changes" comment="тз">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/todolist/ToDoListApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/todolist/controller/TaskController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/todolist/dal/mappers/TaskMappers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/todolist/dal/repository/TaskRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/todolist/dal/repository/TaskRepsitory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/todolist/model/Status.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/todolist/model/Task.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/todolist/service/TaskService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resourses/application.properities" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resourses/data.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resourses/schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resourses/schema.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resourses/application.properities" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resourses/application.properities" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +99,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733148222244</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="тз">
+      <option name="closed" value="true" />
+      <created>1733170779605</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1733170779605</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
