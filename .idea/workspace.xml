@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="36c2c8c1-e43c-4100-98cd-f07a5755fcdc" name="Changes" comment="тз">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/todolist/exception/ConditionsNotMetException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resourses/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/todolist/controller/TaskController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/todolist/controller/TaskController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/todolist/service/TaskService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/todolist/service/TaskService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resourses/application.properities" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +117,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733171055609</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="тз">
+      <option name="closed" value="true" />
+      <created>1733177384412</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1733177384412</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

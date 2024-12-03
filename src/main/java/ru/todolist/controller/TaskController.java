@@ -1,5 +1,6 @@
 package ru.todolist.controller;
 
+import org.apache.catalina.User;
 import ru.todolist.exception.ConditionsNotMetException;
 import ru.todolist.model.Task;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -27,12 +28,14 @@ public class TaskController {
 
     @PostMapping
     public void create(@RequestBody Task task){
+        validateObjectCriteria(task);
         taskService.create(task);
     }
 
     @PutMapping
     public void update(@RequestBody Task newTask){
         checkUpdatedData(newTask);
+        validateObjectCriteria(newTask);
         taskService.update(newTask);
     }
 
@@ -45,6 +48,13 @@ public class TaskController {
         Task oldTask = taskService.getTaskById(task.getId());
         if (oldTask == null) {
             throw new ConditionsNotMetException("Такой задачи нет в базе.");
+        }
+    }
+
+    private void validateObjectCriteria(Task task) {
+        if ((task.getDescription().length() > 200) && task.getName().length() > 100) {
+
+            throw new ConditionsNotMetException("Не выполнены условия для регистрации задачи в приложении");
         }
     }
 }
